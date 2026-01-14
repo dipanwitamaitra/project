@@ -54,7 +54,7 @@
 
 
 
- /* Hero Container */
+ 
 .hero {
     height: 100vh;
     width: 100%;
@@ -76,7 +76,7 @@
     max-width: 800px;
 }
 
-/* Badge Styling */
+
 .badge {
     background:#ffffff;
     color: #30B686;
@@ -98,7 +98,7 @@
     box-shadow: 0 0 10px #4ade80;
 }
 
-/* Typography */
+
 h1 {
     font-size: 3.5rem;
     font-weight: 700;
@@ -156,9 +156,8 @@ p {
 }
 
 .btn:hover {
-   color: #3d7552;
-   /* transform: translateY(-2px);*/
-}
+   color: #3d7552;}
+   
 
 .problems {
   padding: 120px 120px;
@@ -187,4 +186,49 @@ p {
     position: cen;
 }
 
-/* ========== SOLUTION ========== */
+
+.solution {
+  padding: 120px 120px;
+}
+
+.solution-flex {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  
+}
+
+.solution-image .circle {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: #e6fffa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+}
+
+.label {
+  color: #2f855a;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.feature-list {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.feature-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.check {
+  color: #2f855a;
+  font-weight: bold;
+}
+
